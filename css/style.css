@@ -65,6 +65,10 @@ body.dark #speech
     box-shadow: 0px 5px 0px 0px #4e7caa;
 }
 
+body.dark   #speech:active {
+    box-shadow: 0px 0px 0px 0px #4e7caa;
+  }
+
 body.dark .footer
 {
     color: var(--fourth-color);
@@ -85,9 +89,9 @@ body.dark .footer
     width: 50px;
     margin-left: 20px;
     fill: var(--third-color);
-    position: fixed;
+    position: relative;
     top: 20px;
-    right: 40px;
+    right: 0px;
     cursor: pointer;
     transition: all .3s;
 }
